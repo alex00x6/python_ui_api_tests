@@ -36,4 +36,3 @@ def waitforjs(driver):
 
 def waitforclickableByXpath(driver, xpath):
     WebDriverWait(driver, 15).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath)))
-
